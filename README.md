@@ -39,7 +39,7 @@ Business data often lives in **different systems** (ERP, cloud warehouses, sprea
 ---
 Flow diagram
 
- <img width="1873" height="1381" alt="model" src="model_image.png"/>
+ <img width="1300" height="1200" alt="model" src="model_image.png"/>
 
 ## 🚀 Running the Project  
 
