@@ -231,4 +231,5 @@ render_table_and_chart()
 if st.session_state.state.get("sql"):
     with st.expander("🧪 Executed SQL"):
         st.code(st.session_state.state["sql"], language="sql")
-# ---------- Data / Chart (after
+# ---------- Data / Chart (after)
+

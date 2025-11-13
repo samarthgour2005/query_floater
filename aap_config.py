@@ -21,8 +21,7 @@ def config():
             bigquery_config["service_account"] = json.load(f)
 
     return {
-        "llm_url": "https://wmtllmgateway.stage.walmart.com/wmtllmgateway",
-        "llm_model": "mistral",
+        "llm_model": "gemini-1.5-pro",  # or "gemini-1.5-flash" for faster/cheaper responses
         "conn_hana": conn_hana,
         "conn_bigq": conn_bigq,
         "conn_duckdb": conn_duckdb,
